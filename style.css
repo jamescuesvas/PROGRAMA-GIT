@@ -1,0 +1,210 @@
+.navbar {
+    padding: 1rem;
+    background-color: #f5f6f7;
+     
+}
+
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILOS GENERALES */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: normal;
+}
+
+/* SECCION HERO */
+.hero {
+
+    background-color: #f5f5f5;
+    min-height: 400px;
+    text-align: center;
+    
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-logo-cliente {
+    width: 160px;
+    height: 80px;
+    /* border-radius: 50%; */
+    margin: 20px;
+}
+
+.hero-principal h2 {
+    font-size: 1rem;
+    color: rgb(119, 70, 7);
+}
+
+.hero-principal {
+    width: 100%; /* Ancho del div */
+    height: 500px; /* Alto del div */
+    
+}
+
+.hero-inferior-imagen {
+    margin-top: 30px;
+}
+
+
+
+.seis_ejes {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.kpi {
+    width: 100px;
+    height: 100px;
+}
+
+.span_tabla {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .span_tabla_item {
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .span_tabla_inicio {
+    text-align: center;
+    width: 100%;
+  }
+
+  .caja_negra {
+    margin-top: 20px;
+    background-color: black;
+    padding: 20 px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .caja_negra h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #formato_s_tabla {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.styled-table {
+    width: 95%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    word-wrap: break-word;
+    max-width: 200px; /* Ancho máximo que puede tener cada celda */
+  }
+  
+  .styled-table th {
+    text-align: center;
+    
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .flex-container div {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    font-size: 1.5rem;
+    
+  }
+tr {
+    text-align: center;
+}
+
+.flotarcaja:hover {
+  color: white;
+  background-color: black;
+  padding: 5px 3px 5px 3px;
+}
+.flotartextofila:hover {
+  color: white;
+  background-color: rgb(3, 2, 65);
+  padding: 5px 3px 5px 3px;
+}
+
+footer {
+  background-color: black;
+  height: 200px;
+  text-align: center;
+  color: #ddd;
+  align-items: center;
+  padding: 20px 0 20px 0;
+
+
+}
+
+.contrato {
+  font-size: 20px;
+}
+
+
+
+
+
+
+/* ADAPTABLE RESPONSIVO */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .seis_ejes {
+        max-width: 1200px;
+        
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 800px;
+        
+    }
+}
+
